@@ -1,0 +1,67 @@
+body {
+    font-family: arial;
+}
+
+/* Sets the background image for the wheel */
+
+/* Do some css reset on selected elements */
+h1,
+p {
+    margin: 0;
+}
+
+div.power_controls {
+    margin-right: 70px;
+}
+
+div.html5_logo {
+    margin-left: 70px;
+}
+
+/* Styles for the power selection controls */
+
+
+/* Style applied to the spin button once a power has been selected */
+.clickable {
+    cursor: pointer;
+}
+
+/* Other misc styles */
+.margin_bottom {
+    margin-bottom: 5px;
+}
+
+#canvas {
+    margin-top: 158px;
+    margin-left: 133px;
+    position: absolute;
+    z-index: 10;
+}
+
+@media (max-width: 875px) and (min-width: 575px) {
+    .voorraam {
+        margin-top: 35px;
+    }
+}
+
+#spin_button {
+    position: absolute;
+    margin-left: 309px;
+    margin-top: 309px;
+    z-index: 100;
+}
+
+#background {
+    position: relative;
+    width: 700px;
+    height: 635px;
+    margin-top: 100px;
+    z-index: -1;
+}
+
+#circle {
+    position: absolute;
+    margin-left: -559px;
+    margin-top: 166px;
+    z-index: 20;
+}
